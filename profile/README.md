@@ -1,6 +1,6 @@
 # KYE Protocol™
 
-**KYE™ — Know Your Entity.** An open vocabulary for identifying, authorizing, constraining, auditing, and proving every entity that can act, be acted upon, delegate, approve, invoke, or be audited.
+**KYE™ — Know Your Entity™.** An open vocabulary for identifying, authorizing, constraining, auditing, and proving every entity that can act, be acted upon, delegate, approve, invoke, or be audited.
 
 KYE Protocol™ extends entity-level identity, authority, and accountability across humans, organizations, workloads, services, AI agents, models, tools, datasets, credentials, and workflows.
 
