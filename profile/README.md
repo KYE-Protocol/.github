@@ -117,7 +117,7 @@ You start with the **risk and unlock story**:
 | Documentation prose | **CC BY 4.0** where indicated |
 | Trademarks (KYE™, KYE Protocol™, KYE Gateway™, KYE Payments™, KYE Certified™) | reserved |
 | Reference runtimes and SDKs | published under their own terms |
-| Mechanism specifications (replay algorithm, cascade ordering, authority-chain proof, payment-authority binding, gateway enforcement, federation transfer) | **not** under any open-source licence — see Patent notice |
+| Mechanism specifications | not published in this repository — see Patent notice below |
 
 The Apache 2.0 grant **does not** include trademark rights. To indicate conformance, participate in the **KYE Certified™** program.
 
@@ -177,7 +177,7 @@ KYE™ coexists with — does not replace — the standards you already trust:
 
 ## Patent notice
 
-KYE Protocol™ is the subject of pending patent applications covering specific technical mechanisms — **how** replay, stop cascades, authority-chain proof, payment-authority binding, gateway enforcement, and cross-domain federation transfer actually work. The public repositories deliberately publish only the **vocabulary, naming, and high-level structure**. Anyone interested in implementing a conformant runtime should contact the maintainers about the normative specification track and the **KYE Certified™** conformance program.
+KYE Protocol™ is the subject of pending patent applications. The public repositories deliberately publish only the **vocabulary, naming, and high-level structure**, and do not publish the specific algorithms used to implement the protocol's mechanism layer. Anyone interested in implementing a conformant runtime should contact the maintainers about the normative specification track and the **KYE Certified™** conformance program.
 
 ## Get involved
 
