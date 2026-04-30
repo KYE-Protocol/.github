@@ -42,7 +42,7 @@ KYE™ unifies the answer. One immutable entity ID per actor. One acting-on-beha
 flowchart LR
   subgraph "With KYE™ — one contract"
     direction LR
-    A2[Agent action] --> G[KYE Gateway]
+    A2[Agent action] --> G[KYE™ Gateway]
     G --> P[PDP / sPDP]
     P --> D{Decision}
     D -- allow_with_constraints --> E[Execute under scope]
@@ -65,7 +65,7 @@ KYE™ is **not** a SaaS, **not** a replacement for OAuth / OIDC / SPIFFE / VC, 
 sequenceDiagram
     autonumber
     actor Agent as 🤖 Procurement Agent
-    participant GW as KYE Gateway
+    participant GW as KYE™ Gateway
     participant PDP as PDP / sPDP
     participant REG as Registries
     participant SYS as Billing System
@@ -116,7 +116,7 @@ No more *"we revoked the API key, please wait 24 hours for the cache to expire"*
 
 For every governed action, KYE™ standardises how a system answers these — **every time, in a portable form**:
 
-| # | Question | KYE artefact |
+| # | Question | KYE™ artefact |
 |---|---|---|
 | 1 | Who is the actor? | immutable entity ID |
 | 2 | On whose behalf is it acting? | delegation (subject) |
@@ -232,7 +232,7 @@ flowchart LR
   subgraph DEV["Developer / platform team"]
     direction TB
     D1[Pull vocabulary + ID format] --> D2[Adopt example payloads]
-    D2 --> D3[Wire KYE Gateway into runtime]
+    D2 --> D3[Wire KYE™ Gateway into runtime]
     D3 --> D4[Plug existing OAuth / SPIFFE / VC]
   end
   subgraph COMP["Compliance / security / audit"]
@@ -285,7 +285,7 @@ Start with the risk-and-unlock story:
 |---|---|
 | Vocabulary, ID format, illustrative examples | **Apache 2.0** — use freely |
 | Documentation prose | **CC BY 4.0** where indicated |
-| Trademarks (KYE™, KYE Protocol™, KYE Gateway™, KYE Payments™, KYE Certified™) | reserved |
+| Trademarks (KYE™, KYE Protocol™, KYE™ Gateway™, KYE Payments™, KYE Certified™) | reserved |
 | Reference runtimes and SDKs | published under their own terms |
 | Mechanism specifications | not published in this repository — see Patent notice below |
 
@@ -372,4 +372,4 @@ For collaboration, conformance program participation, or normative specification
 
 ---
 
-KYE™, KYE Protocol™, KYE Passport™, KYE Gateway™, KYE Payments™, KYE Certified™, Know Your Entity™ and the KYE™ logo are trademarks of the KYE Protocol™ maintainers. Use of these marks to indicate conformance requires participation in the KYE Certified™ program.
+KYE™, KYE Protocol™, KYE Passport™, KYE™ Gateway™, KYE Payments™, KYE Certified™, Know Your Entity™ and the KYE™ logo are trademarks of the KYE Protocol™ maintainers. Use of these marks to indicate conformance requires participation in the KYE Certified™ program.
